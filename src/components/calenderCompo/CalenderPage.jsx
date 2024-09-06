@@ -84,7 +84,7 @@ const CalenderPage = () => {
                 </div>
   
             </div>
-            <div className='flex flex-col border bg-purple-500/5 backdrop-blur-[100px] border-[#b51883] max-sm:w-full  rounded-xl max-lg:flex-col gap-[40px] max-lg:mt-[40px]   min-w-[30%]  ' >
+            <div className='flex flex-col border bg-purple-500/5 backdrop-blur-[100px] border-[#17c8f7] max-sm:w-full  rounded-xl max-lg:flex-col gap-[40px] max-lg:mt-[40px]   min-w-[30%]  ' >
               {
                 !step ?
                 <>
@@ -154,7 +154,7 @@ const CalenderPage = () => {
                   </div>
                
                   
-                    <button onClick={handleSubmit} className='bg-[#b51883] text-white rounded-xl px-8 py-2 mt-4' >Schedule Event</button>
+                    <button onClick={handleSubmit} className='bg-[#17c8f7] text-white rounded-xl px-8 py-2 mt-4' >Schedule Event</button>
                 </form>
               </div>
               }

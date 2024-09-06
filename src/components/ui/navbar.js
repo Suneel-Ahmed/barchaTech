@@ -120,7 +120,7 @@ export default function Navbar() {
           </button>
           <ul className="hidden lg:flex gap-[80px]">
             {navbarData.links.map((link, index) => (
-              <li key={link.name}>
+              <li className=" hover:text-[#17caf7] duration-300 delay-75 transition-all ease-out" key={link.name}>
                 <a href={link.path}>{link.name}</a>
               </li>
             ))}

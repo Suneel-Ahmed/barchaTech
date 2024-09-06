@@ -8,9 +8,9 @@ export default function CTACard({ number, title, text, image, link, alt }) {
 			<div className='w-full h-full absolute inset-0'>
 				<div className='w-full h-full relative'>
 					{alt ? (
-						<div className='w-[90vw] lg:w-[62vw] aspect-square absolute top-1/2 left-0 lg:right-0 -translate-x-[75%] lg:translate-x-[75%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(181,24,131,0.2)_0%,rgba(181,24,131,0)_100%)] blur-[125px]' />
+						<div className='w-[90vw] lg:w-[62vw] aspect-square absolute top-1/2 left-0 lg:right-0 -translate-x-[75%] lg:translate-x-[75%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(23,24,131,0.2)_0%,rgba(181,24,131,0)_100%)] blur-[125px]' />
 					) : (
-						<div className='w-[90vw] lg:w-[62vw] aspect-square absolute top-1/2 left-0 -translate-x-[75%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(181,24,131,0.2)_0%,rgba(181,24,131,0)_100%)] blur-[125px]' />
+						<div className='w-[90vw] lg:w-[62vw] aspect-square absolute top-1/2 left-0 -translate-x-[75%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(23,24,131,0.2)_0%,rgba(181,24,131,0)_100%)] blur-[125px]' />
 					)}
 				</div>
 			</div>

@@ -36,14 +36,14 @@ export default function CTAText() {
 					<div className='w-[90vw] lg:w-[56vw] aspect-square absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(155,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
 				</div>
 			</div>
-			<p className='relative text-transparent text-[clamp(20px,1.8vw,34px)] text-center font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#9B36FF]'>
+			<p className='relative text-transparent text-[clamp(20px,1.8vw,34px)] text-center font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#17caf7]'>
 				User-generated content to use wherever you like
 			</p>
 			<p
 				ref={textRef}
 				className='relative w-[90vw] lg:max-w-[82vw] text-[#FFFFFF] text-[clamp(30px,3.75vw,71px)] text-center font-poppins font-normal leading-[150%]'
 			>
-				<span className='text-[#9B36FF]'>Tell your Brand</span>{' '}
+				<span className='text-[#17caf7]'>Tell your Brand</span>{' '}
 				<span className='opacity-25'>
 					story with content by Creator advocates. As a proven tactic,
 				</span>{' '}

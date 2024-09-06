@@ -182,7 +182,7 @@ export default function Calender({selectedDay , setSelectedDay}) {
                       !isEqual(day, selectedDay) &&
                         !isToday(day) &&
                         isSameMonth(day, firstDayCurrentMonth) &&
-                        'text-[#b51883]',
+                        'text-[#17c8f7]',
                       !isEqual(day, selectedDay) &&
                         !isToday(day) &&
                         !isSameMonth(day, firstDayCurrentMonth) &&

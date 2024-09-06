@@ -172,10 +172,10 @@ export default function Hero() {
 				<div ref={shadowsRef} className='w-full h-full relative'>
 					<div className='w-full h-full absolute inset-0 bg-[linear-gradient(266.53deg,rgba(6,3,36,0)_8.44%,rgba(2,3,30,0.87)_43.74%,#02031E_63.03%)]' />
 					<div className='w-full h-full absolute inset-0 bg-[linear-gradient(177.61deg,rgba(1,2,29,0)_12.91%,#00011C_100%)]' />
-					<div className='w-[90vw] lg:w-[46vw] aspect-square absolute top-1/2 left-0 -translate-x-[25%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(155,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
+					<div className='w-[90vw] lg:w-[46vw] aspect-square absolute top-1/2 left-0 -translate-x-[25%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(23,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
 				</div>
 			</div>
-			<p className='relative text-transparent text-[clamp(40px,3.75vw,60px)] text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#E33AFF]'>
+			<p className='relative text-transparent text-[clamp(40px,3.75vw,60px)] text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#17caf7]'>
 				{window.innerWidth >= 1024 ? (
 					<>
 						Elevate Your Presence

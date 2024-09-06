@@ -77,8 +77,8 @@ const AskedQuestion = ({ Questions }) => {
               }}
               className="w-[40px] lg:w-[96px] aspect-square lg:self-center relative flex place-content-center place-items-center border rounded-full transition-all"
               style={{
-                borderColor: activeFAQ === idx ? "#BC13FE" : "white",
-                backgroundColor: activeFAQ === idx ? "#BC13FE" : "transparent",
+                borderColor: activeFAQ === idx ? "#17c8f7" : "white",
+                backgroundColor: activeFAQ === idx ? "#17c8f7" : "transparent",
               }}
             >
               <svg

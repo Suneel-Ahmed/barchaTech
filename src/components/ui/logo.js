@@ -79,7 +79,7 @@ export default function Logo({ alt = false, className }) {
 					y2='250.626'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stopColor='#943EFF' />
+					<stop stopColor='#17caf7' />
 					<stop offset='1' stopColor='#9139FF' />
 				</linearGradient>
 				<linearGradient
@@ -90,7 +90,7 @@ export default function Logo({ alt = false, className }) {
 					y2='261.331'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stopColor='#943EFF' />
+					<stop stopColor='#17caf7' />
 					<stop offset='1' stopColor='#9139FF' />
 				</linearGradient>
 				<linearGradient
@@ -101,7 +101,7 @@ export default function Logo({ alt = false, className }) {
 					y2='250.291'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stopColor='#943EFF' />
+					<stop stopColor='#17caf7' />
 					<stop offset='1' stopColor='#9139FF' />
 				</linearGradient>
 				<linearGradient
@@ -112,7 +112,7 @@ export default function Logo({ alt = false, className }) {
 					y2='258.595'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stopColor='#943EFF' />
+					<stop stopColor='#17caf7' />
 					<stop offset='1' stopColor='#9139FF' />
 				</linearGradient>
 				<linearGradient
@@ -123,7 +123,7 @@ export default function Logo({ alt = false, className }) {
 					y2='260.969'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stopColor='#943EFF' />
+					<stop stopColor='#17caf7' />
 					<stop offset='1' stopColor='#9139FF' />
 				</linearGradient>
 			</defs>

@@ -18,18 +18,18 @@ export default function Hero() {
 		>
 			<div className='w-full h-full absolute inset-0'>
 				<div className='w-full h-full relative'>
-					<div className='w-[90vw] lg:w-[56vw] aspect-square absolute top-1/2 left-0 -translate-x-[25%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(155,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
+					<div className='w-[90vw] lg:w-[56vw] aspect-square absolute top-1/2 left-0 -translate-x-[25%] -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(23,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
 				</div>
 			</div>
 			<div className='flex flex-col place-items-center lg:place-items-start gap-[50px]'>
 				<span>
-					<p className='relative text-transparent text-[clamp(14px,1.8vw,34px)] text-center lg:text-left font-inter font-extrabold leading-[275%] uppercase  bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#b51883]'>
+					<p className='relative text-transparent text-[clamp(14px,1.8vw,34px)] text-center lg:text-left font-inter font-extrabold leading-[275%] uppercase  bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#17caf7]'>
 						Guaranteed publicity on
 					</p>
-					<p className='relative text-transparent text-[clamp(35px,6.3vw,120px)] text-center lg:text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#b51883]'>
+					<p className='relative text-transparent text-[clamp(35px,6.3vw,120px)] text-center lg:text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#17caf7]'>
 						200+ Sites
 					</p>
-					<p className='relative text-transparent text-[clamp(16px,2.7vw,50px)] text-center lg:text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#b51883]'>
+					<p className='relative text-transparent text-[clamp(16px,2.7vw,50px)] text-center lg:text-left font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-b from-[#FFFFFF] to-[#17caf7]'>
 						Build trust and credibility with ease
 					</p>
 				</span>
