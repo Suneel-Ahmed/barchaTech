@@ -102,7 +102,7 @@ export default function Navbar() {
       <nav className="w-full h-[clamp(40px,4.15vw,80px)] flex place-content-center place-items-center gap-[1rem]">
       <div className="w-full lg:w-fit h-full px-[8vw] lg:px-[clamp(40px,4vw,75px)] flex place-content-between lg:place-content-center place-items-center lg:gap-[60px] xl:gap-[150px] text-[#FFFFFF] text-[clamp(12px,1.45vw,28px)] text-center font-leagueSpartan font-semibold leading-[100%] lg:border-[1px] lg:border-[#FFFFFF40] lg:rounded-full lg:backdrop-blur-xl lg:bg-white/15">
           <a href="/">
-            <Image alt = "NebulaNest Tech" className = "w-[100px] lg:w-[clamp(50px,5.2vw,100px)]"  src = '/images/logo/logo.png' width = {500} height = {500} />
+            <Image alt = "Barcha Tech" className = "w-[55px] h-auto lg:w-[clamp(50px,5.2vw,55px)]"  src = '/images/logo/logo.png' width = {500} height = {500} />
            
           </a>
           <button

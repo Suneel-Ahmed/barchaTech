@@ -1,5 +1,4 @@
 import Layout from '@/layout/layout';
-
 import Loader from '@/components/ui/loader';
 import Hero from '@/components/home/hero';
 import IndustryLeaders from '@/components/home/industry-leaders';
@@ -8,10 +7,8 @@ import OurNetwork from '@/components/home/our-network';
 import OurCustomers from '@/components/home/our-customers';
 import CTA from '@/components/home/cta';
 import BookCall from '@/components/home/book-call';
-
 import useAssetsLoader from '@/hooks/useAssetsLoader';
 import useDocumentTitle from '@/hooks/useDocumentTitle';
-
 import industryLeaderData from '@/constants/industry-leader-data';
 import servicesData from '@/constants/services-data';
 import customerData from '@/constants/customer-data';

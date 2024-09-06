@@ -296,7 +296,7 @@ body {
 }
 
 .gradient-text-purple {
-	background-image: linear-gradient(to bottom, #ffffff, #a54386d5);
+	background-image: linear-gradient(to bottom, #ffffff, #26a9f5);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
