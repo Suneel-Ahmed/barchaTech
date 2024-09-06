@@ -17,6 +17,9 @@ module.exports = {
 				'3xl': '1920px',
 			}
 		},
+		colors: {
+			webBlue : "#17c8f7"
+		  }
 	},
 	plugins: [],
 };

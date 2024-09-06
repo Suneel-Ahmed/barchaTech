@@ -71,7 +71,7 @@ export default function Hero() {
 				className='w-full h-full relative flex flex-col place-content-center place-items-center gap-[2vh]'
 			>
 				<p className='text-[#FFFFFF] gradient-text-purple text-[clamp(40px,6vw,120px)] text-center font-inter font-extrabold leading-[120%]'>
-					NebulaNest
+					Barcha Tech
 					<br />
 					Technologies
 				</p>

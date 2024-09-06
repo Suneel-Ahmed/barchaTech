@@ -79,9 +79,9 @@ export default function FullPageMenu({ isOpen, closeMenu }) {
 		>
 			<nav className='navbar bg-transparent absolute top-0 left-0 right-0 px-[8vw] py-[4vh] flex place-items-center z-50 lg:z-40'>
 				<div className='flex-1'>
-					<a href='/'>
+					{/* <a href='/'>
 						<Logo className='w-[100px]' />
-					</a>
+					</a> */}
 				</div>
 				<button
 					ref={menuButtonRef}
