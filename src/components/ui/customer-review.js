@@ -8,7 +8,7 @@ export default function CustomerReview({
 	unoptimized = false,
 }) {
 	return (
-		<div className='w-full h-full py-[2vw] flex flex-col place-content-between place-items-center border-[2px] border-[#b51883] rounded-[20px] bg-[#b518832f] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-xl overflow-hidden'>
+		<div className='w-full h-full py-[2vw] flex flex-col place-content-between place-items-center border-[2px] border-[#17c8f7] rounded-[20px] bg-[#17c8f72b] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-xl overflow-hidden'>
 			<div className='flex flex-col place-content-center place-items-center gap-[0.5vw]'>
 				<span className='w-[clamp(72px,5vw,96px)] aspect-square relative rounded-[100px] overflow-hidden'>
 					<Image
