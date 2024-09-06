@@ -37,7 +37,7 @@ export default function FeaturedClients({ featuredClients }) {
 			id='featured-clients'
 			className='w-full h-fit relative'
 		>
-			<p className='text-transparent text-[clamp(28px,4.3vw,82px)] text-center font-leagueSpartan font-semibold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#E33AFF]'>
+			<p className='text-transparent text-[clamp(28px,4.3vw,82px)] text-center font-leagueSpartan font-semibold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#17caf7]'>
 				We've Featured Our Clients in:
 			</p>
 			<ul ref={listRef} className='w-fit p-[4vw] flex gap-[4vw]'>

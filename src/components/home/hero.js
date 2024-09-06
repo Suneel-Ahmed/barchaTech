@@ -105,11 +105,11 @@ export default function Hero() {
 							/>
 							<path
 								d='M28 45L27.9262 46.033C27.4043 53.3393 21.3248 59 14 59V59C6.67516 59 0.595662 53.3393 0.0737887 46.033L0 45'
-								stroke='#E33AFF'
+								stroke='#17c8f7'
 							>
 								<animate
 									attributeName='stroke'
-									values='#E33AFF;white;#E33AFF'
+									values='#17c8f7;white;#17c8f7'
 									begin='0s'
 									dur='2s'
 									repeatCount='indefinite'
@@ -128,7 +128,7 @@ export default function Hero() {
 									keyTimes='0;0.5;1'
 								/>
 							</path>
-							<rect x='9' y='28' width='10' height='19' rx='5' fill='#9B36FF'>
+							<rect x='9' y='28' width='10' height='19' rx='5' fill='#17c8f7'>
 								<animate
 									attributeName='y'
 									values='28;6;28'

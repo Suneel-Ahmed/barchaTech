@@ -164,7 +164,7 @@ export default function Hero() {
 							idx === 0 ? '' : 'invisible'
 						}`}
 					>
-						<p className='lg:max-w-[35vw] relative text-transparent text-[clamp(45px,4.2vw,80px)] text-center lg:text-left font-inter font-extrabold leading-[100%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#9B36FF]'>
+						<p className='lg:max-w-[35vw] relative text-transparent text-[clamp(45px,4.2vw,80px)] text-center lg:text-left font-inter font-extrabold leading-[100%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#17caf7]'>
 							{item.title}
 						</p>
 						<p className='lg:max-w-[23vw] relative text-[#FFFFFFCC] text-[clamp(14px,0.95vw,18px)] text-center lg:text-left font-inter font-normal leading-[125%]'>
@@ -188,7 +188,7 @@ export default function Hero() {
 						{outdoorAdvertisingData.data.map((item, idx) => (
 							<div
 								key={idx}
-								className='w-[60vw] lg:w-[16.2vw] h-[65vw] lg:h-[22.4vw] relative border-[3px] border-[#943EFF] rounded-[1.6vh] lg:rounded-[1.2vw] overflow-hidden'
+								className='w-[60vw] lg:w-[16.2vw] h-[65vw] lg:h-[22.4vw] relative border-[3px] border-[#17caf7] rounded-[1.6vh] lg:rounded-[1.2vw] overflow-hidden'
 							>
 								<Image
 									key={idx}
@@ -494,7 +494,7 @@ export default function Hero() {
 					<div className='h-[2px] ml-[50px] -translate-y-[6px] relative flex-grow bg-[#FFFFFF4D]'>
 						<div
 							ref={lineRef}
-							className={`w-full h-full absolute inset-0 origin-left scale-x-[calc(1/5)] bg-[#9B36FF]`}
+							className={`w-full h-full absolute inset-0 origin-left scale-x-[calc(1/5)] bg-[#17caf7]`}
 						/>
 					</div>
 				</div>

@@ -186,7 +186,7 @@ body {
 
 /* Other Styles Start */
 .menu-item {
-	-webkit-text-stroke: 3px #b51883;
+	-webkit-text-stroke: 3px #17c8f7;
 	text-decoration: none;
 	transition: all 0.3s ease;
 	color: transparent;
@@ -194,7 +194,7 @@ body {
 }
 
 .menu-item:hover {
-	-webkit-text-fill-color: #b51883;
+	-webkit-text-fill-color: #17c8f7;
 }
 
 .menu-item-fill-transparent {
@@ -202,7 +202,7 @@ body {
 }
 
 .menu-item-fill-green {
-	-webkit-text-fill-color: #b51883;
+	-webkit-text-fill-color: #17c8f7;
 }
 
 .menu-item.clicked {
@@ -213,8 +213,8 @@ body {
 
 .text-outlined {
 	color: #00011c;
-	text-shadow: 0px 0px 2px #db6024, 0px 0px 2px #db6024, 0px 0px 2px #db6024,
-		0px 0px 2px #db6024, 0px 0px 2px #db6024, 0px 0px 2px #db6024, 0px 0px 2px #db6024;
+	text-shadow: 0px 0px 2px #17c8f7, 0px 0px 2px #17c8f7, 0px 0px 2px #17c8f7,
+		0px 0px 2px #17c8f7, 0px 0px 2px #17c8f7, 0px 0px 2px #17c8f7, 0px 0px 2px #17c8f7;
 }
 
 .league-spartan {
@@ -238,7 +238,7 @@ body {
 	align-items: center !important;
 	border-radius: 50%;
 	color: #fff !important;
-	background-color: #b51883 !important;
+	background-color: #17c8f7 !important;
 }
 .swiper-button-next {
 	width: 56px !important;
@@ -248,7 +248,7 @@ body {
 	align-items: center !important;
 	border-radius: 50%;
 	color: #fff !important;
-	background-color: #b51883 !important;
+	background-color: #17c8f7 !important;
 }
 .swiper-button-prev:after,
 .swiper-button-next:after {
@@ -266,7 +266,7 @@ body {
 	z-index: -1;
 	background: linear-gradient(
 		to bottom right,
-		#b51883,
+		#17c8f7,
 		rgba(163, 89, 255, 0)
 	);
 }
@@ -306,14 +306,14 @@ body {
 	background-image: linear-gradient(
 		to right,
 		rgba(255, 255, 255, 1) 20%,
-		#e33aff
+		#17c8f7
 	);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
 }
 .gradient-text-golden {
-	background-image: linear-gradient(to bottom, #ffffff, #db6024);
+	background-image: linear-gradient(to bottom, #ffffff, #17c8f7);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
@@ -341,8 +341,8 @@ body {
 
 	background: radial-gradient(
 		50% 50% at 50% 50%,
-		rgb(155, 54, 255) 20%,
-		rgb(155, 54, 255) 100%
+		rgb(54, 225, 255) 20%,
+		rgb(73, 192, 212) 100%
 	);
 
 }
@@ -354,8 +354,8 @@ body {
 		height: 599px;
 				background: radial-gradient(
 			50% 50% at 50% 50%,
-			rgba(155, 54, 255, 0.35) 0%,
-			rgba(155, 54, 255, 0) 100%
+			rgb(54, 232, 255) 0%,
+			rgb(16, 204, 229) 100%
 		);
 		filter: blur(300px);
 	}	
@@ -367,8 +367,8 @@ body {
 		height: 499px;
 				background: radial-gradient(
 			50% 50% at 50% 50%,
-			rgba(155, 54, 255, 0.35) 0%,
-			rgba(155, 54, 255, 0) 100%
+			rgb(54, 232, 255)  0%,
+			rgba(54, 201, 255, 0) 100%
 		);
 		filter: blur(300px);
 	}	

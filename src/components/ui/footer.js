@@ -40,18 +40,26 @@ export default function Footer() {
 							src={image}
 							alt={image}
 							fill
-							sizes='40vh'
-							className='object-cover object-top rounded-[0.5vw] overflow-hidden'
+							// sizes='40vh'
+							className='object-cover object-top rounded-[0.5vw] overflow-hidden '
 						/>
 					</div>
 				))}
 			</div>
 			<div className='w-full lg:w-[42.5%] relative flex flex-col gap-[clamp(30px,5vw,100px)]'>
 				{/* <Logo className='w-[192px] lg:w-[clamp(0px,20vw,384px)]' /> */}
-				<Image src={'/images/logo/whitelogo.png'} className='w-[100px] lg:w-[clamp(0px,20vw,384px)]' width={500} height={500} alt='nebulanest' />
+				<div className=' flex items-start justify-start  flex-col'>
+				<Image src={'/images/logo/logo.png'} className='w-[60px] lg:w-[clamp(0px,20vw,150px)]' width={500} height={500} alt='nebulanest' />
+				<h2 className=' mt-2 text-[#FFFFFF]  gradient-text-purple text-[clamp(18px,4vw,45px)]  font-inter flex-col pl-5 text-2xl flex gap-y-2'>
+					Barcha Tech 
+					<span className='text-[#FFFFFF] text-2xl gradient-text-purple text-[clamp(18px,4vw,45px)]  font-inter  '>
+						Technologies
+					</span>
+				</h2>
+				</div>
 				<form
 					onSubmit={onSubmit}
-					className='w-[clamp(0px,75%,350px)] lg:w-[clamp(0px,27.5vw,528px)] pb-[clamp(10px,1vw,20px)] flex border-b-[2px] border-[#9B36FF]'
+					className='w-[clamp(0px,75%,350px)] lg:w-[clamp(0px,27.5vw,528px)] pb-[clamp(10px,1vw,20px)] flex border-b-[2px] border-[#17c8f7]'
 				>
 					<svg
 						viewBox='0 0 38 29'
@@ -60,8 +68,8 @@ export default function Footer() {
 					>
 						<path
 							d='M2.4442 4.47516L1.80646 4.00383V4.79684V26.4753V26.8753H2.20646H35.3033H35.7033V26.4753V4.79684V4.00383L35.0656 4.47516L18.7549 16.5299L2.4442 4.47516ZM18.5172 14.7563L18.7549 14.932L18.9926 14.7563L35.5411 2.52593L36.5176 1.80425H35.3033H2.20646H0.992241L1.96872 2.52593L18.5172 14.7563ZM0.4 28.284V0.4H37.1098V28.284H0.4Z'
-							fill='#9B36FF'
-							stroke='#9B36FF'
+							fill='#17c8f7'
+							stroke='#17c8f7'
 							strokeWidth='0.8'
 						/>
 					</svg>
@@ -78,7 +86,7 @@ export default function Footer() {
 						>
 							<path
 								d='M2 8.75C1.30964 8.75 0.75 9.30964 0.75 10C0.75 10.6904 1.30964 11.25 2 11.25V8.75ZM47.8839 10.8839C48.372 10.3957 48.372 9.60427 47.8839 9.11612L39.9289 1.16117C39.4408 0.67301 38.6493 0.67301 38.1612 1.16117C37.673 1.64932 37.673 2.44078 38.1612 2.92893L45.2322 10L38.1612 17.0711C37.673 17.5592 37.673 18.3507 38.1612 18.8388C38.6493 19.327 39.4408 19.327 39.9289 18.8388L47.8839 10.8839ZM2 11.25H47V8.75H2V11.25Z'
-								fill='#9B36FF'
+								fill='#17c8f7'
 							/>
 						</svg>
 					</button>

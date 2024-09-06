@@ -29,7 +29,7 @@ export default function CTA() {
 			});
 			tl.to(heading.current , {autoAlpha: 0})
 			tl.set(Array.from(numbers[0].children)[0], {
-				color: '#9B36FF',
+				color: '#17c8f7',
 				fontWeight: 500,
 				scale: 1.25,
 			}).set(Array.from(numbers[0].children)[1], {
@@ -88,7 +88,7 @@ export default function CTA() {
 					.to(
 						Array.from(numbers[i + 1].children)[0],
 						{
-							color: '#9B36FF',
+							color: '#17c8f7',
 							fontWeight: 500,
 							scale: 1.25,
 						},
@@ -142,7 +142,7 @@ export default function CTA() {
 								>
 									<path
 										d='M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM3 3.5H30V2.5H3V3.5Z'
-										fill='#9B36FF'
+										fill='#17c8f7'
 									/>
 								</svg>
 							</li>

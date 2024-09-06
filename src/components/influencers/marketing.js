@@ -38,7 +38,7 @@ function CustomButton({ title, link, className }) {
       link={link}
       className={className}
       padding={`${window.innerWidth >= 1024 ? 2 : 5}vw clamp(50px,4.5vw,100px)`}
-      borderColor="#9B36FF"
+      borderColor="#17caf7"
     >
       <span className="w-full flex justify-center items-center gap-8">
         {title === "Health & Wellness" ? (

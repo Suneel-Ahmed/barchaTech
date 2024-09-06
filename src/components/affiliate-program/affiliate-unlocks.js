@@ -59,7 +59,7 @@ export default function AffiliateUnlocks() {
 								idx % 2 === 0
 									? 'right-0 translate-x-1/4'
 									: 'left-0 -translate-x-1/4'
-							} -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(155,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[150px] lg:blur-[300px]`}
+							} -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(23,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[150px] lg:blur-[300px]`}
 							style={{}}
 						/>
 

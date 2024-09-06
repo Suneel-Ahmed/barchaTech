@@ -16,7 +16,7 @@ export default function CreatorCollaboration({ creatorData }) {
 					<div className='w-[90vw] lg:w-[46vw] aspect-square absolute top-1/2 left-0 -translate-y-1/2 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(155,54,255,0.35)_0%,rgba(155,54,255,0)_100%)] blur-[300px]' />
 				</div>
 			</div>
-			<p className='relative text-transparent text-[clamp(40px,3.75vw,70px)] text-center font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#9B36FF]'>
+			<p className='relative text-transparent text-[clamp(40px,3.75vw,70px)] text-center font-inter font-extrabold leading-[125%] uppercase bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#17c8f7]'>
 				{window.innerWidth >= 1024 ? (
 					<>
 						Collaborate with
@@ -43,7 +43,7 @@ export default function CreatorCollaboration({ creatorData }) {
 							>
 								<path
 									d='M27.7071 8.70711C28.0976 8.31658 28.0976 7.68342 27.7071 7.29289L21.3431 0.928932C20.9526 0.538408 20.3195 0.538408 19.9289 0.928932C19.5384 1.31946 19.5384 1.95262 19.9289 2.34315L25.5858 8L19.9289 13.6569C19.5384 14.0474 19.5384 14.6805 19.9289 15.0711C20.3195 15.4616 20.9526 15.4616 21.3431 15.0711L27.7071 8.70711ZM0 9H27V7H0V9Z'
-									fill='#9B36FF'
+									fill='#17c8f7'
 								/>
 							</svg>
 							<button
@@ -53,7 +53,7 @@ export default function CreatorCollaboration({ creatorData }) {
 								}}
 								className='text-[clamp(14px,1.1vw,20px)] text-left font-poppins leading-[125%] tracking-widest uppercase'
 								style={{
-									color: idx === selectedKey ? '#9B36FF' : '#FFFFFF',
+									color: idx === selectedKey ? '#17c8f7' : '#FFFFFF',
 									fontWeight: idx === selectedKey ? '500' : '300',
 								}}
 							>
@@ -76,8 +76,8 @@ export default function CreatorCollaboration({ creatorData }) {
 									onClick={() => {
 										setPaginationValue(idx);
 									}}
-									className={`w-[clamp(13px,1.1vw,20px)] aspect-square border-[1px] border-[#9B36FF] rounded-full hover:cursor-pointer ${
-										idx === paginationValue ? 'bg-[#9B36FF]' : 'bg-transparent'
+									className={`w-[clamp(13px,1.1vw,20px)] aspect-square border-[1px] border-[#17c8f7] rounded-full hover:cursor-pointer ${
+										idx === paginationValue ? 'bg-[#17c8f7]' : 'bg-transparent'
 									}`}
 								/>
 							))}

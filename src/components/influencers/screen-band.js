@@ -27,10 +27,10 @@ export default function ScreenBand() {
 	return (
 		<section ref={containerRef} id='screen-band' className='w-full'>
 			<div className='w-full h-[250px] relative overflow-hidden'>
-				<div className='w-[110vw] h-[clamp(57px,15vw,134px)] absolute inset-x-1/2 inset-y-0 -translate-x-1/2 translate-y-1/2 bg-[#E33AFF]' />
+				<div className='w-[110vw] h-[clamp(57px,15vw,134px)] absolute inset-x-1/2 inset-y-0 -translate-x-1/2 translate-y-1/2 bg-[#17caf7]' />
 				<div
 					ref={bandRef}
-					className='w-full h-[clamp(57px,15vw,134px)] relative translate-y-1/2 flex place-content-center place-items-center gap-[3.4vw] bg-[#9B36FF] -rotate-2'
+					className='w-full h-[clamp(57px,15vw,134px)] relative translate-y-1/2 flex place-content-center place-items-center gap-[3.4vw] bg-[#17caf7] -rotate-2'
 				>
 					{[...Array(7)].map((_, idx) => (
 						<span
