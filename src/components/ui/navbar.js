@@ -1,0 +1,143 @@
+import { useRef, useState, useEffect } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+// import Logo from "@/components/ui/logo";
+import Image from "next/image.js";
+import Button from "@/components/ui/button";
+import FullPageMenu from "@/components/ui/full-page-menu";
+import navbarData from "@/constants/navbar-data";
+import ScrollToPlugin from "../../../public/js/ScrollToPlugin.min.js";
+import { useRouter } from "next/router";
+
+gsap.registerPlugin(ScrollToPlugin);
+
+export default function Navbar() {
+  const containerRef = useRef(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [hidden, setHidden] = useState(false);
+  const router = useRouter();
+
+  useGSAP(
+    () => {
+      gsap.timeline().fromTo(
+        containerRef.current,
+        {
+          autoAlpha: 0,
+        },
+        {
+          autoAlpha: 1,
+        },
+        "+=4.15"
+      );
+    },
+    { scope: containerRef }
+  );
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    const heroSection = document.getElementById("hero-section");
+
+    if (currentScrollY > lastScrollY) {
+      // Scrolling down
+      setHidden(true);
+    } else {
+      // Scrolling up
+      setHidden(false);
+    }
+
+    // Show navbar if user is in the hero section
+    if (heroSection && currentScrollY <= heroSection.offsetHeight) {
+      setHidden(false);
+    }
+
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
+  const handleScrollToSection = () => {
+    const hash = router.asPath.split("#")[1];
+    if (hash) {
+      const section = document.getElementById(hash);
+      if (section) {
+        gsap.to(window, {
+          duration: 2,
+          scrollTo: {
+            y: section,
+            offsetY:
+              navbarData.links.find((l) => l.path === `#${hash}`)?.offsetY || 0,
+          },
+        });
+      }
+    }
+  };
+
+  useEffect(() => {
+    handleScrollToSection();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleBookACallRedirect = () => {
+    // const section = document.getElementById("book-a-call");
+    // if (section) {
+    //   section.scrollIntoView({ behavior: "smooth" });
+    // }
+    window.location.href = "/#book-a-call";
+  };
+
+  return (
+    <header
+      ref={containerRef}
+      className={`w-full py-[4vh] fixed top-0 flex place-content-center place-items-center z-[100] transform transition-transform duration-300 ${
+        hidden ? "-translate-y-full" : "translate-y-0"
+      }`}
+    >
+      <nav className="w-full h-[clamp(40px,4.15vw,80px)] flex place-content-center place-items-center gap-[1rem]">
+      <div className="w-full lg:w-fit h-full px-[8vw] lg:px-[clamp(40px,4vw,75px)] flex place-content-between lg:place-content-center place-items-center lg:gap-[60px] xl:gap-[150px] text-[#FFFFFF] text-[clamp(12px,1.45vw,28px)] text-center font-leagueSpartan font-semibold leading-[100%] lg:border-[1px] lg:border-[#FFFFFF40] lg:rounded-full lg:backdrop-blur-xl lg:bg-white/15">
+          <a href="/">
+            <Image alt = "NebulaNest Tech" className = "w-[100px] lg:w-[clamp(50px,5.2vw,100px)]"  src = '/images/logo/logo.png' width = {500} height = {500} />
+           
+          </a>
+          <button
+            className="lg:hidden"
+            onClick={() => setIsMenuOpen((prevState) => !prevState)}
+          >
+            <svg viewBox="0 0 53 13" fill="none" className="w-[40px]">
+              <path
+                d="M52.5 1C40.1667 1 15.2 1 14 1"
+                stroke="white"
+                strokeWidth="2"
+              />
+              <path d="M53 11.5L0 11.5" stroke="white" strokeWidth="2" />
+            </svg>
+          </button>
+          <ul className="hidden lg:flex gap-[80px]">
+            {navbarData.links.map((link, index) => (
+              <li key={link.name}>
+                <a href={link.path}>{link.name}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <Button
+          className="h-full hidden lg:flex"
+          onClick={handleBookACallRedirect}
+        >
+          {navbarData.cta.name}
+        </Button>
+        <FullPageMenu
+          isOpen={isMenuOpen}
+          closeMenu={() => setIsMenuOpen(false)}
+        />
+      </nav>
+    </header>
+  );
+}
